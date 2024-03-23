@@ -1,0 +1,42 @@
+{
+    //** IMPORTANT: Remove comments to the code **
+    //config UI to VS Code
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.rulers": [80,120],
+    "editor.largeFileOptimizations": false,
+    "editor.renderLineHighlight": "gutter",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.fontLigatures": true,
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.visible": false,
+    //"window.titleBarStyle": "native", (use for macOS)
+    //config powermode (Extension: Power Mode)
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "powermode.combo.location": "off",
+    "powermode.combo.counterEnabled": "hide",
+    "powermode.combo.counterSize": 0,
+    "powermode.combo.timerEnabled": "hide",
+    "powermode.shake.enabled": false,
+    //config to open Files/Folder, connections to SSH (Extension: Remote FS)
+    "remotefs.remote": {
+        "<name>": {
+            "scheme": "sftp",
+            "host": "<IP Host>",
+            "username": "<user>"
+        },
+        "<nick name>": {
+            "scheme": "sftp",
+            "host": "<IP Host>",
+            "username": "<user>",
+            "rootPath": "/home/"
+        }
+    },
+    "workbench.colorTheme": "Min Dark",
+    "terminal.integrated.fontFamily": "monospace",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "window.commandCenter": false
+}

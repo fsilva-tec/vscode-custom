@@ -1,0 +1,8 @@
+### Extensions
+Material Icon Theme -> https://github.com/PKief/vscode-material-icon-theme
+Min Theme -> https://github.com/miguelsolorio/min-theme
+Power Mode -> https://github.com/hoovercj/vscode-power-mode
+Remote FS -> https://github.com/liximomo/vscode-remote-fs
+
+### Fonts
+Font JetBrains Mono -> https://www.jetbrains.com/pt-br/lp/mono/
